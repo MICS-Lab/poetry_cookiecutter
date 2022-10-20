@@ -1,6 +1,6 @@
 site_name: {{cookiecutter.project_name}}
 repo_name: {{cookiecutter.repo_name}}
-copyright: Copyright &copy; 2021 - 2022 {{cookiecutter.author_fullname}}
+copyright: Copyright &copy; 2021 - 2022 {{cookiecutter.author_name}}
 theme:
   name: material
 nav:
@@ -20,6 +20,6 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true
 extra_javascript:
   - javascripts/mathjax.js
