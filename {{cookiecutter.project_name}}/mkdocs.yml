@@ -1,6 +1,6 @@
-site_name: XXX
-repo_name: XX
-copyright: Copyright &copy; 2021 - 2022 X
+site_name: {{cookiecutter.project_name}}
+repo_name: {{cookiecutter.repo_name}}
+copyright: Copyright &copy; 2021 - 2022 {{cookiecutter.author_fullname}}
 theme:
   name: material
 nav:

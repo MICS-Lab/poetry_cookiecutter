@@ -1,8 +1,8 @@
 {
-    "project_name": "new project",
+    "project_name": "new-project",
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "author_fullname": "MICS Lab member",
     "author_email": "",
     "description": "A short description of the project.",
     "open_source_license": ["BSD-3-Clause", "MIT", "No license file"]
-  }
+}
