@@ -16,6 +16,16 @@ To activate your new poetry environment, you can choose one of the following:
 
 `mkdocs serve`
 
+### Deploy the doc
+To deploy the documentation on Github Pages, you need first to push a new tag (choose a `tag-name` that starts with `v`):
+```
+git tag <tag-name>
+git push origin <tag-name>
+```
+Then, go to the github settings, and choose `gh-pages` as the branch, and `/docs` as the folder. It will create a link so that you can access the doc online.
+
+NB: the default CI is set up to deploy pages when creating a new tag, but you can update the `.github/workflows/ci.yml` file.
+
 ## Run tests
 
 `pytest`
