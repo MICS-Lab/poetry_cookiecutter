@@ -1,11 +1,8 @@
 [tool.poetry]
-name = "{{cookiecutter.module_name}}"
+name = "poetry_cookiecutter"
 version = "0.0.1"
-description = "{{cookiecutter.description}}"
-authors = ["{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>"]
-packages = [
-    { include = "{{cookiecutter.module_name}}" },
-]
+description = "Template for data science projects using PyPoetry."
+authors = ["Quentin Blampey <quentin.blampey@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.7,<3.11"

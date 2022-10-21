@@ -11,17 +11,28 @@ This repository eases the creation of a new Python package. Using [`cookiecutter
 - Formatting with [`black`](https://github.com/psf/black).
 - Standardised project organization (`data` folder, `config` folder, ...).
 
-## Template usage
+## Requirements
+First, make sure you have Python installed (version `>= 3.7`). Next, install `PyPoetry` and `cookiecutter` (if not done yet):
+### Poetry installation
+
+The official installer can be found below (for Linux, macOS, or Window WSL users):
+
+```
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+If you use Windows without WSL, or if the above command line was not working, choose another installer [(see their documentation)](https://python-poetry.org/docs/#installation).
 
 ### Cookiecutter installation
-If not done yet, install `cookiecutter` using one of the following command lines:
+Install `cookiecutter` using one of the following command lines:
 
 ```bash
 pip install cookiecutter     # install with pip
 conda install cookiecutter   # install with conda
 ```
 
-### Get the template
+## Usage
+
 Run the following command line to create a new project folder:
 ```bash
 cookiecutter gh:MICS-Lab/poetry_cookiecutter

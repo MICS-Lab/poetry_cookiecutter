@@ -1,5 +1,5 @@
 site_name: {{cookiecutter.project_name}}
-repo_name: {{cookiecutter.repo_name}}
+repo_name: {{cookiecutter.module_name}}
 copyright: Copyright &copy; 2021 - 2022 {{cookiecutter.author_name}}
 theme:
   name: material
