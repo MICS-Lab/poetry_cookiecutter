@@ -6,6 +6,13 @@ theme:
 nav:
   - Home: index.md
   - Getting started: getting_started.md
+  - Features:
+    - Poetry usage: features/poetry.md
+    - Documentation: features/doc.md
+    - Testing: features/test.md
+    - Code style: features/style.md
+    - Deploy on PyPI: features/pypi.md
+    - Github actions: features/actions.md
 plugins:
   - search
 markdown_extensions:
