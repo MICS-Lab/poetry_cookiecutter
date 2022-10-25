@@ -38,9 +38,7 @@ jobs:
         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
         run: poetry install
       #----------------------------------------------
-      #              run test suite
+      #              deploy doc
       #----------------------------------------------
-      - name: Tests
-        run: poetry run pytest
       - name: Deploy doc
         run: poetry run mkdocs gh-deploy --force
