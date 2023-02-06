@@ -9,10 +9,10 @@ nav:
   - Features:
     - Poetry usage: features/poetry.md
     - Documentation: features/doc.md
+    - Formatting: features/black.md
     - Testing: features/test.md
-    - Code style: features/style.md
     - Deploy on PyPI: features/pypi.md
-    - Github actions: features/actions.md
+  - Good practices: good_practices.md
 plugins:
   - search
 markdown_extensions:

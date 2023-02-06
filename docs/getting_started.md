@@ -1,8 +1,8 @@
 ## Requirements
 
-- [x] Python `>= 3.7`
-- [x] Git
-- [x] Poetry (if the command lines below don't work, see [here](https://python-poetry.org/docs/#installation)):
+- Python `>= 3.7`
+- Git
+- Poetry (if the command line below doesn't work, see [here](https://python-poetry.org/docs/#installation)):
 
     === "For Linux / MacOS"
 
@@ -16,7 +16,7 @@
         (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
         ```
 
-- [x] Cookiecutter:
+- Cookiecutter (don't create a new environment, it will be done by poetry):
 
     === "With pip"
 
@@ -31,10 +31,10 @@
         ```
 
 ## Usage
+!!! info
+    After answering a few questions, the command line below creates a new folder with everything you need inside. Especially, it created a `README.md` file that helps you understand the package organization you just created.
 
-Run the following command line to create a new project folder:
+Run the following command line to create a new project folder. Note that it will put everything inside a new folder, thus you don't have to `mkdir` first.
 ```bash
 cookiecutter gh:MICS-Lab/poetry_cookiecutter
 ```
-!!! info
-    After answering a few questions, it creates a new folder with everything you need inside. Especially, it created a `README.md` file that helps you understand the package organization you just created.
