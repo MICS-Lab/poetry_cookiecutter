@@ -7,6 +7,9 @@ nav:
   - Home: index.md
 plugins:
   - search
+  - mkdocstrings
+  - mkdocs-jupyter:
+      include_source: True
 markdown_extensions:
   - admonition
   - attr_list

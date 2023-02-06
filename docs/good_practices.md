@@ -53,7 +53,7 @@ It can be very useful to run a sanity check before running some functions to mak
 from model import MyModel
 
 def f(x: MyModel, a: float):
-    assert isinstance(x, MyModel), f"The argument 'x' has to be an MyModel object, but found {type(x)}."
+    assert isinstance(x, MyModel), f"The argument 'x' has to be a MyModel object, but found {type(x)}."
     assert 0 < a < 1, f"The argument 'a' should be included in ]0, 1[, but found {a}."
     ...
 ```
@@ -77,4 +77,4 @@ Tools like [black](https://github.com/psf/black) helps you format your code. It 
 
 - Never `import *` from a package. Else, you never know know which functions comes from which package, and it can cause conflicts/bugs.
 - Don't overwrite python builtins and reserved keywords, such as `None`, `list`, `id`, ...
-- Never use a list (or any mutable variable) as a default argument of a function. Indeed, you'll not have the same default argument each time, since it can be muted. For instance, if you set `default_arg=[]`, then at the next call it may not be empty anymore. Instead, use `default_arg=None`, and you can set it to `[]` later on in the code if it was not set.
+- Never use a list (or any mutable variable) as a default argument of a function. Indeed, you'll not have the same default argument each time, since it can be muted. For instance, if you set `default_arg=[]`, then at the next call it may not be empty anymore. Instead, use `default_arg=None`, and you can set it to `[]` later on in the code.

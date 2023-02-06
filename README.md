@@ -2,6 +2,10 @@
 
 This repository eases the creation of a new Python package. Using [`cookiecutter`](https://cookiecutter.readthedocs.io/en/stable/index.html), it will copy the project template and personalize it according to the answers to a few questions (e.g. the project name) so that you can get started quickly.
 
+## Documentation
+
+All the requirements and features are described in the [documentation](https://mics-lab.github.io/poetry_cookiecutter/).
+
 ## Features
 - Easy dependency management with [`Poetry`](https://python-poetry.org/).
 - Pretty documentation with [`Mkdocs material`](https://squidfunk.github.io/mkdocs-material/).
@@ -12,7 +16,7 @@ This repository eases the creation of a new Python package. Using [`cookiecutter
 - Standardised project organization (`data` folder, `config` folder, ...).
 
 ## Requirements
-First, make sure you have Python installed (version `>= 3.7`). Next, install `PyPoetry` and `cookiecutter` (if not done yet):
+First, make sure you have Python installed (version `>= 3.7`) and Git. Next, install `PyPoetry` and `cookiecutter` (if not done yet):
 ### Poetry installation
 
 The official installer can be found below (for Linux, macOS, or Window WSL users):
@@ -38,4 +42,3 @@ Run the following command line to create a new project folder:
 cookiecutter gh:MICS-Lab/poetry_cookiecutter
 ```
 After answering a few questions, it creates a new folder with everything you need inside.
-Especially, it created a `README.md` file that helps you understand the package organization you just created.

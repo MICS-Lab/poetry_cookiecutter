@@ -3,7 +3,6 @@
 
 # Ruche related
 jobs/
-outputs/
 
 # IDE related
 .vscode/*

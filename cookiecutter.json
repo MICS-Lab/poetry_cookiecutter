@@ -1,8 +1,8 @@
 {
     "project_name": "new-project",
     "module_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "author_name": "MICS Lab member",
-    "author_email": "firstname.lastname@centralesupelec.fr",
+    "author_name": "Firstname Lastname",
+    "author_email": "{{'.'.join(cookiecutter.author_name.lower().split())}}@centralesupelec.fr",
     "description": "A short description of the project.",
     "open_source_license": ["BSD-3-Clause", "MIT", "No license file"],
     "_copy_without_render": [

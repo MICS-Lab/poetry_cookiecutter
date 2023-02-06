@@ -1,4 +1,4 @@
 # {{cookiecutter.project_name}}
 
 !!! info
-    Read [Mkdocs Material documentation](https://squidfunk.github.io/mkdocs-material/creating-your-site/) to learn how to update the documentation.
+    Read about [Mkdocs Material](https://squidfunk.github.io/mkdocs-material/creating-your-site/) to learn how to update this documentation.
