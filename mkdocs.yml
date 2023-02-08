@@ -3,6 +3,8 @@ repo_name: poetry_cookiecutter
 copyright: Copyright &copy; 2021 - 2022 Quentin Blampey
 theme:
   name: material
+  logo: assets/logo_white.png
+  favicon: assets/favicon.png
 nav:
   - Home: index.md
   - Getting started: getting_started.md

@@ -13,13 +13,13 @@ All the requirements and features are described in the [documentation](https://m
 - Deployment on [`PyPI`](https://pypi.org/) in a few seconds, if needed.
 - Tests with [`pytest`](https://docs.pytest.org/en/7.1.x/).
 - Formatting with [`black`](https://github.com/psf/black).
-- Standardised project organization (`data` folder, `config` folder, ...).
+- Standardized project organization (`data` folder, `config` folder, ...).
 
 ## Requirements
-First, make sure you have Python installed (version `>= 3.7`) and Git. Next, install `PyPoetry` and `cookiecutter` (if not done yet):
+First, ensure you have Python installed (version `>= 3.7`) and Git. Next, install `PyPoetry` and `cookiecutter` (if not done yet):
 ### Poetry installation
 
-The official installer can be found below (for Linux, macOS, or Window WSL users):
+The official installer can be found below (for Linux, macOS, or Windows WSL users):
 
 ```
 curl -sSL https://install.python-poetry.org | python3 -

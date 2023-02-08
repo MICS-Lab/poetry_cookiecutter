@@ -7,26 +7,26 @@ This repository eases the creation of a new Python package. Using [`cookiecutter
 - Deployment on [`PyPI`](https://pypi.org/) in a few seconds, if needed.
 - Tests with [`pytest`](https://docs.pytest.org/en/7.1.x/).
 - Formatting with [`black`](https://github.com/psf/black).
-- Standardised project organization (`data` folder, `config` folder, ...).
+- Standardized project organization (`data` folder, `config` folder, ...).
 
 ## Project structure
-
+Once created, your package structure will look like that:
 ```txt
 .
 |-- LICENSE
 |-- README.md
-|-- config             # where you store config files
-|-- data               # where you store your data
+|-- config             # folder containing your config files
+|-- data               # folder containing your data files
 |-- docs               # your documentation
 |   |-- index.md
 |   `-- ...
 |-- mkdocs.yml         # documentation config
-|-- poetry.lock        # poetry related file (do not update)
+|-- poetry.lock        # poetry-related file (do not update)
 |-- <your-module-name> # folder containing your code
 |   |-- __init__.py
 |   `-- ...
 |-- pyproject.toml     # project dependency settings and config
-|-- setup.py           # setup file to pip install the project
+|-- setup.py           # setup file to enable installation with pip
 `-- tests              # folder to write your package tests
     `-- test_instance.py
 ```

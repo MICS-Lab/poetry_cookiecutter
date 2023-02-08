@@ -16,7 +16,7 @@
         (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
         ```
 
-- Cookiecutter (don't create a new environment, it will be done by poetry):
+- Cookiecutter (don't create a new environment, poetry will take care of that):
 
     === "With pip"
 
@@ -34,7 +34,7 @@
 !!! info
     After answering a few questions, the command line below creates a new folder with everything you need inside. Especially, it created a `README.md` file that helps you understand the package organization you just created.
 
-Run the following command line to create a new project folder. Note that it will put everything inside a new folder, thus you don't have to `mkdir` first.
+Run the following command line to create a new project folder. Note that it will put everything inside a new folder; thus, you don't have to `mkdir` first.
 ```bash
 cookiecutter gh:MICS-Lab/poetry_cookiecutter
 ```
