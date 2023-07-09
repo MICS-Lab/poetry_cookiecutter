@@ -73,8 +73,10 @@ Testing your code becomes crucial when your project gets bigger. Even though it 
 
 Tools like [black](https://github.com/psf/black) help you format your code. It will make it more readable automatically. See [here](../features/black) for an explanation of how to use `black` for your project.
 
-## What to **not** do
+## What **not** to do
 
 - Never `import *` from a package. Otherwise, you never know which functions come from which package, which can cause conflicts/bugs.
 - Don't overwrite python builtins and reserved keywords, such as `None`, `list`, `id`, ...
+- Never use the `global` keyword, which is error-prone.
+- Never write code outside functions/classes. Instead, if you want a script to run code when executed, write it inside a `if __name__ == "__main__":` block. Else, the code would be executed if imported from other python files.
 - Never use a list (or any mutable variable) as a default argument of a function. Indeed, you'll not have the same default argument each time since it can be muted. For instance, if you set `default_arg=[]`, then it may not be empty at the next call. Instead, use `default_arg=None`, and you can set it to `[]` later in the code.
